@@ -1,10 +1,10 @@
-%include "/usr/local/share/csc314/asm_io.inc"
+%include "/usr/local/share/coding/asm_io.inc"
 
 
 segment .data
 
 	arr1	db	"He11o_W0rld!                   ",10,0
-	arr2	db	"Have a great summer everyone!  ",10,0
+	arr2	db	"Have a great day!  ",10,0
 	arr3	db	"abc def ABC DEF 012 345 {|} ~~~",10,0
 
 segment .bss
